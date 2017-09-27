@@ -13,6 +13,11 @@ echo($str);
 <?php
 echo strlen("Hi, My name is Sanchit Gupta and I am pursuing my masters in Information Systems");
 ?>
+<h4>Breaking a string into an  Array</h4>
+<?php
+$str = "I currently have three courses in my first semester.";
+print_r (explode(" ",$str));
+?>
 </body>
 </html>
 
