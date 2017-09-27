@@ -29,6 +29,11 @@ I am pursuing my masters in Information Systems");
 ?>
 <p>" In this string function I replaced 'masters' to 'masters of science' from the
 above mentioned line."<p> 
+<h3>Repeating any particular number or name</h3>
+<?php
+echo str_repeat("5",10);
+?>
+<p> In this string function I took 5 and got it repeated 10 times.</p>
 </body>
 </html>
 
